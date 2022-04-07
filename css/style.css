@@ -1,3 +1,69 @@
+@media (max-width: 768px) {
+  #MenuNavegacion a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+  #MenuNavegacion a:hover::after {
+    -webkit-transform-origin: left;
+            transform-origin: left;
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+    margin: auto;
+    width: 18%;
+  }
+  .container-index {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+  }
+  .container-productos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+  }
+  .container-productos__tarjetas-productos__imagenes-productos {
+    width: 100%;
+  }
+  .container-carrusel__carrusel {
+    width: 700px;
+    height: 600px;
+  }
+  .container-carrusel__carrusel__foto {
+    width: 700px;
+    height: 590px;
+  }
+  .container-ubicacion {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+  .seguinos {
+    width: 80%;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +71,7 @@
 }
 
 body {
-  background-image: url(images/fondos/fondo.jpg);
+  background-image: url(https://previews.123rf.com/images/natashapankina/natashapankina1609/natashapankina160900101/63622771-modelo-incons%C3%BAtil-de-la-mano-doodle-iconos-peluquer%C3%ADa-establecen.jpg);
 }
 
 .navbargeneral {
@@ -312,71 +378,5 @@ footer a {
   text-align: center;
   height: 40px;
   width: 33%;
-}
-
-@media (max-width: 768px) {
-  #MenuNavegacion a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    color: white;
-    text-transform: uppercase;
-    padding: 10px;
-  }
-  #MenuNavegacion a:hover::after {
-    -webkit-transform-origin: left;
-            transform-origin: left;
-    -webkit-transform: scaleX(1);
-            transform: scaleX(1);
-    margin: auto;
-    width: 18%;
-  }
-  .container-index {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 90%;
-  }
-  .container-productos {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 60%;
-  }
-  .container-productos__tarjetas-productos__imagenes-productos {
-    width: 100%;
-  }
-  .container-carrusel__carrusel {
-    width: 700px;
-    height: 600px;
-  }
-  .container-carrusel__carrusel__foto {
-    width: 700px;
-    height: 590px;
-  }
-  .container-ubicacion {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 80%;
-  }
-  .seguinos {
-    width: 80%;
-  }
 }
 /*# sourceMappingURL=style.css.map */

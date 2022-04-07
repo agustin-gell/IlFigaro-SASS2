@@ -1,0 +1,85 @@
+@media (max-width: 768px) {
+
+    #MenuNavegacion a {
+        display: flex;
+        justify-content: center;
+        color: white;
+        text-transform: uppercase;
+        padding: 10px;
+    }
+
+    #MenuNavegacion a:hover::after {
+        transform-origin: left;
+        transform: scaleX(1);
+        margin: auto;
+        width: 18%;
+    }
+
+    .container-index {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 90%;
+    }
+
+
+
+    .container-productos {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 60%;
+
+        &__tarjetas-productos {
+
+            &__imagenes-productos {
+                width: 100%;
+            }
+
+        }
+
+    }
+
+
+
+    .container-carrusel {
+
+        &__carrusel {
+            width: 700px;
+            height: 600px;
+
+            &__foto {
+                width: 700px;
+                height: 590px;
+            }
+
+        }
+
+    }
+
+
+
+
+
+    .container-ubicacion {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 80%;
+    }
+
+
+
+
+
+
+    .seguinos {
+        width: 80%;
+    }
+
+}
