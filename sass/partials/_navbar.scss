@@ -47,3 +47,21 @@
 .menugeneral {
     background-color: white;
 }
+
+@media (max-width: 768px) {
+
+    #MenuNavegacion a {
+        display: flex;
+        justify-content: center;
+        color: white;
+        text-transform: uppercase;
+        padding: 10px;
+    }
+
+    #MenuNavegacion a:hover::after {
+        transform-origin: left;
+        transform: scaleX(1);
+        margin: auto;
+        width: 18%;
+    }
+}

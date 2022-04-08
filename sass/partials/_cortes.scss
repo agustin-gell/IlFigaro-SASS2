@@ -33,3 +33,21 @@
 .container-carrusel__carrusel__botones-carrusel:hover {
     transform: scale(1.15, 1.15);
 }
+
+@media (max-width: 768px) {
+
+    .container-carrusel {
+
+        &__carrusel {
+            width: 700px;
+            height: 600px;
+
+            &__foto {
+                width: 700px;
+                height: 590px;
+            }
+
+        }
+
+    }
+}

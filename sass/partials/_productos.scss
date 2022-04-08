@@ -42,3 +42,31 @@
     color: black;
     font-weight: bold;
 }
+
+
+
+@media (max-width: 768px) {
+
+    .container-productos {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 60%;
+
+        &__tarjetas-productos {
+
+            &__imagenes-productos {
+                width: 100%;
+            }
+
+        }
+
+    }
+
+
+}
+
+
