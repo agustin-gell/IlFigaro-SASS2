@@ -259,7 +259,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 400px;
+  width: 30%;
   margin: auto;
 }
 
@@ -280,7 +280,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 350px;
+  width: 20%;
   margin: auto;
 }
 
@@ -304,11 +304,13 @@
 }
 
 .container-redes__logos-redes__logos {
-  width: 60px;
-  height: 60px;
-  border-radius: 30px;
+  width: 4em;
+  height: 4em;
+  margin: auto;
+  border-radius: 2em;
   background-color: white;
-  margin-left: 20px;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .container-redes__logos-redes__logos:hover {
@@ -324,7 +326,7 @@
   background: #e9e9e9;
   background: radial-gradient(circle, #e9e9e9 0%, #8f8f8f 100%);
   text-align: center;
-  height: 40px;
+  height: 1.5em;
   width: 33%;
 }
 
