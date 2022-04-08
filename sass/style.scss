@@ -7,6 +7,7 @@
 @import "./partials/contacto";
 @import "./partials/index";
 @import "./partials/footer";
+@import "./partials/titulos";
 
 * {
     margin: 0;
@@ -14,26 +15,11 @@
     list-style: none;
 }
 
-
 body {
     background-image: url(https://previews.123rf.com/images/natashapankina/natashapankina1609/natashapankina160900101/63622771-modelo-incons%C3%BAtil-de-la-mano-doodle-iconos-peluquer%C3%ADa-establecen.jpg);
 }
 
 
-
-
-
-
-
-
-
-.titulos {
-    text-transform: uppercase;
-    background: $color-secundario;
-    background: $degradado-gris;
-    text-align: center;
-    height: 55px;
-}
 
 
 
