@@ -19,7 +19,7 @@
         &__cuerpo-tarjeta {
 
             &__boton-comprar {
-                background-color: black;
+                background-color: map-get($mapas, background-color);
                 color: white;
                 display: flex;
                 justify-content: center;
