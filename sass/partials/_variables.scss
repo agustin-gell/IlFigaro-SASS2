@@ -14,3 +14,10 @@ $mapas: (
     justify-content: center;
     align-items: center;
 }
+
+@mixin margin ($arriba, $derecha, $abajo, $izquierda) {
+    margin-top: $arriba;
+    margin-right: $derecha;
+    margin-bottom: $abajo;
+    margin-left: $izquierda;
+}

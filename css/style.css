@@ -162,6 +162,18 @@
   }
 }
 
+.container-formulario__formulario, .container-formulario__boton-enviar, .container-redes__logos-redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .container-ubicacion {
   margin-left: auto;
   margin-right: auto;
@@ -193,12 +205,24 @@
 
 @media (max-width: 768px) {
   .container-ubicacion {
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 20px;
+    margin-right: auto;
     margin-bottom: 20px;
+    margin-left: auto;
     width: 80%;
   }
+}
+
+.container-formulario__formulario, .container-formulario__boton-enviar, .container-redes__logos-redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .container-productos {
@@ -367,10 +391,10 @@
 
 @media (max-width: 768px) {
   .container-index {
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 20px;
+    margin-right: auto;
     margin-bottom: 20px;
+    margin-left: auto;
     width: 90%;
   }
 }
