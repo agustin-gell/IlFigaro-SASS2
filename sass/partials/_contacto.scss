@@ -33,9 +33,7 @@
 .container-redes {
 
     &__logos-redes {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @extend %flex;
 
         &__logos {
             width: 4em;
