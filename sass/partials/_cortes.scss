@@ -1,0 +1,33 @@
+.container-carrusel {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    &__carrusel {
+        border: 5px solid black;
+        width: 800px;
+        height: 700px;
+
+        &__foto {
+            width: 800px;
+            height: 690px;
+        }
+
+        &__botones-carrusel {
+            background-color: black;
+            height: 40px;
+            width: 40px;
+            border-radius: 50px;
+        }
+
+
+    }
+
+}
+
+.container-carrusel__carrusel__botones-carrusel:hover {
+    transform: scale(1.15, 1.15);
+}

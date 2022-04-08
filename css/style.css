@@ -64,16 +64,6 @@
   }
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-body {
-  background-image: url(https://previews.123rf.com/images/natashapankina/natashapankina1609/natashapankina160900101/63622771-modelo-incons%C3%BAtil-de-la-mano-doodle-iconos-peluquer%C3%ADa-establecen.jpg);
-}
-
 .navbargeneral {
   background: black;
   background: radial-gradient(circle, black 0%, #424242 100%);
@@ -128,48 +118,6 @@ body {
 
 .menugeneral {
   background-color: white;
-}
-
-footer {
-  background: black;
-  background: radial-gradient(circle, black 0%, #424242 100%);
-  color: white;
-  width: 100%;
-  height: 8vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-footer a {
-  color: white;
-}
-
-.titulos {
-  text-transform: uppercase;
-  background: #e9e9e9;
-  background: radial-gradient(circle, #e9e9e9 0%, #8f8f8f 100%);
-  text-align: center;
-  height: 55px;
-}
-
-.container-index {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 45%;
-}
-
-.container-index__titulo-index-tarjeta {
-  font-size: 35px;
-  text-align: center;
 }
 
 .container-carrusel {
@@ -378,5 +326,57 @@ footer a {
   text-align: center;
   height: 40px;
   width: 33%;
+}
+
+.container-index {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 45%;
+}
+
+.container-index__titulo-index-tarjeta {
+  font-size: 35px;
+  text-align: center;
+}
+
+footer {
+  background: black;
+  background: radial-gradient(circle, black 0%, #424242 100%);
+  color: white;
+  width: 100%;
+  height: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer a {
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  background-image: url(https://previews.123rf.com/images/natashapankina/natashapankina1609/natashapankina160900101/63622771-modelo-incons%C3%BAtil-de-la-mano-doodle-iconos-peluquer%C3%ADa-establecen.jpg);
+}
+
+.titulos {
+  text-transform: uppercase;
+  background: #e9e9e9;
+  background: radial-gradient(circle, #e9e9e9 0%, #8f8f8f 100%);
+  text-align: center;
+  height: 55px;
 }
 /*# sourceMappingURL=style.css.map */

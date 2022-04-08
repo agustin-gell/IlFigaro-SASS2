@@ -1,0 +1,34 @@
+.container-ubicacion {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 45%;
+
+    &__tarjeta-ubicacion {
+        background: $color-secundario;
+        background: $degradado-gris;
+
+        iframe {
+            width: 100%;
+            height: 490px;
+        }
+
+        &__cuerpo-tarjeta-ubicacion {
+
+            &__titulo-ubicacion-tarjeta {
+                font-size: 35px;
+                text-align: center;
+                text-transform: uppercase;
+            }
+
+            &__texto-ubicacion {
+                text-transform: uppercase;
+                text-align: center;
+            }
+
+        }
+
+    }
+
+}
