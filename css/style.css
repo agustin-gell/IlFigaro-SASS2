@@ -384,9 +384,14 @@
   width: 45%;
 }
 
-.container-index__titulo-index-tarjeta {
-  font-size: 40px;
+.titulo-index-tarjeta {
+  font-size: 3rem;
   text-align: center;
+}
+
+.foto-index {
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 768px) {
