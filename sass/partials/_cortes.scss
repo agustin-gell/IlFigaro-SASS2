@@ -10,18 +10,18 @@
 
     &__carrusel {
         border: 5px solid black;
-        width: 800px;
-        height: 700px;
+        width: 50rem;
+        height: 40rem;
 
         &__foto {
-            width: 800px;
-            height: 690px;
+            width: 50rem;
+            height: 39.5rem;
         }
 
         &__botones-carrusel {
             background-color: map-get($mapas, background-color);
-            height: 40px;
-            width: 40px;
+            height: 2.5rem;
+            width: 2.5rem;
             border-radius: 50px;
         }
 
@@ -39,12 +39,12 @@
     .container-carrusel {
 
         &__carrusel {
-            width: 700px;
-            height: 600px;
+            width: 40rem;
+            height: 40rem;
 
             &__foto {
-                width: 700px;
-                height: 590px;
+                width: 40rem;
+                height: 39.5rem;
             }
 
         }
