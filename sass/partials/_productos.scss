@@ -3,10 +3,10 @@
 .container-productos {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 30px;
-    padding: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    grid-gap: 2rem;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 
     &__tarjetas-productos {
         background: $color-secundario;
